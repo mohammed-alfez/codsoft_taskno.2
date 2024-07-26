@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #d8790c;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0.843);
+    width: 30px;
+}
+.navbar-1{
+    width: 100%;
+    height: 35px;
+    background-color: #e9820d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-1 a{
+    color: rgb(33, 32, 32);
+    padding: 0px 10px 2px;
+    font-size: 15px; 
+    background: white;
+    border-radius: 8px;
+}
+.navbar-1 a:hover{
+    transition: 0.3s ease;
+    color: #d8790c;
+}
+.navbar-1 i{
+    margin: 0 5px;
+    color: white;  
+}
+.navbar-1 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.navbar-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: #FFB703;
+}
+.navbar-home a{
+    font-size: 30px;
+    font-weight: 600;
+}
+span{
+    color: #d8790c;
+    font-size: 27px;
+    font-weight: 600;
+}
+.navbar-address a{
+    font-weight: 500;
+    font-size: 30;
+    margin: 0 20px;
+}
+.navbar-address a:hover{
+    transition: 0.3s ease;
+    color: #d8790c;
+}
+.btn-1{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(33, 32, 32);
+    padding: 0 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+#search-nav{
+    padding: 2px 20px;
+    border: 0.2px solid transparent;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 100;
+}
+.navbar-search:hover{
+    border: 1px solid #d8790c;
+    border-radius: 15px;
+}
+#search-nav:focus{
+    outline: none;
+}
+.home{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/bg-rajasthan.jpg);
+    background-size: cover;
+}
+.home-content{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-content h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+.home-content span{
+    font-size: 1em;
+}
+.home-content a{
+    font-size: 28px;
+    background-color: #d8790c;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    font-weight: 550;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 15px 7px;
+}
+.home-content a:hover{
+    transition: 0.3s ease;
+    color: #d8790c;
+    background-color: white;
+}
+.about{
+    background-color: rgb(234, 181, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8%;
+    gap: 3em;
+    
+}
+.about-img img{
+    position: relative;
+    width: 500px;
+    height: 460px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+}
+.about-img img:hover{
+    transition: 0.3s ease-in;
+    box-shadow: 0 0 50px orangered,
+                0 0 70px orangered;
+}
+.about-content h1{
+    color: white;
+    font-weight: 600;
+    font-size: 42px;
+}
+.about-content span{
+    font-size: 1em;
+}
+.about-content p{
+    color: white;
+    font-size: 15px;
+
+}
+.btn-3{
+    font-size: 24px;
+    background-color: #d8790c;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    font-weight: 400;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 8px 2px;
+}
+.btn-3:hover{
+    transition: 0.3s ease;
+    color: #d8790c;
+    background-color: white;
+}
